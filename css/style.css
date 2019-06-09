@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, ul, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  max-width: 1440px;
+}
+.hidden {
+  display: none !important;
+}
+.text-breaker {
+  display: block;
+}
+.page-header {
+  display: flex;
+  padding: 30px 117px 26px 138px;
+  width: 100%;
+}
+.page-header__logo {
+  width: 48%;
+  background: url(/img/page-header/header-mini-logo.svg) no-repeat;
+  -webkit-background-size: 22px 23px;
+  background-size: 22px 23px;
+}
+.page-header__logo-info {
+  font-size: 20px;
+  margin-left: 38px;
+  /*line-height: 30px;*/
+  letter-spacing: 0.15px;
+  color: #C81F56;
+}
+.page-header__main-navigation {
+  width: 52%;
+}
+.site-navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.site-navigation__point {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+}
+.site-navigation__point-link {
+  color: inherit;
+  text-decoration: none;
+}
+.page-main {
+
+}
+.introduce-slide {
+  display: flex;
+  flex-direction: column;
+  padding: 73px 122px 62px 138px;
+  background: url(/img/introduce-slide/bg-first-section.svg) no-repeat center;
+  background-size: 100%;
+}
+.introduce-slide__header {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  color: #fff;
+}
+.introduce-slide__first-text {
+  margin: 0 0 11px;
+}
+.introduce-slide__second-text {
+  margin: 0 0 58px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: inherit;
+}
+.learning-main-advantages {
+  
+}
+.learning-main-advantages__ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.learning-main-advantages__item {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  width: 25%;
+  padding: 0 0 0 40px;
+  background-image: url(/img/introduce-slide/cash-advantage.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 0 0;
+}
+.learning-main-advantages__item--search {
+  width: 21%;
+  background-image: url(/img/introduce-slide/search-advantage.svg);
+}
+.learning-main-advantages__item--clock {
+  width: 30%;
+  background-image: url(/img/introduce-slide/clock-advantage.svg);
+}
+.introduce-slide__starting-date {
+  margin: 22px 0 60px 0;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #fff;
+  text-shadow: 0px 4px 20px rgba(200, 31, 86, 0.5);
+}
+.introduce-slide__reg-btn-wrapper {
+
+}
+.introduce-slide__reg-btn {
+  background-color: #feb447;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  padding: 13px 18px;
+  border: none;
+}
